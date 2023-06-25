@@ -1,0 +1,416 @@
+body{
+    padding-top: 80px;
+    margin: 0;
+}.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color:white;
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    padding-top: 0%;
+    border-bottom: 1px solid rgb(240, 235, 235);
+
+    
+}.nav-left{
+    display: flex;
+}.nav-left-1{
+    margin-left:50px;
+}.nav-2-left{
+    display: flex;
+    align-items: center;
+    margin-left:50px;
+}
+.menu{
+    margin-right: 30px;
+    font-family:'SoDo Sans';
+    font-weight: 550;
+    font-size: 15px;
+    color: gray;
+    
+
+    
+}.menu-active{
+    margin-right: 30px;
+    font-family:'SoDo Sans';
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    border-bottom-color:#00754a;
+    
+
+}.logo{
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom:5PX ;
+}.nav-right{
+    display:flex;
+    align-items: center; 
+    
+
+}.search-box{
+    height: 30px;
+    border-style:none;
+    width: 250px;
+    
+} .search-box:focus{
+    outline: none;
+
+}.search-box::placeholder{
+    font-size: 12px;
+    padding:20px 30px;
+    font-family:'SoDo Sans';
+}
+.search-button{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    border-radius:50px;
+    width: 300px;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    box-shadow: 1px 0.5px 1px 0.5px rgba(0,0,0,0.2);
+
+
+}.search-button:focus{
+    outline:black solid 1px;
+}.nav-2-right{
+    margin-right: 100px;
+}.nav-1-right{
+    margin-right:100px;
+}.profile-icon{
+    margin-right: 100px;
+    width: 35px;
+    height: 35px;
+}.Banner{
+    position:static;
+    background-color: #1e3932;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px  0 20px 0;
+    /* margin-top: 20px; */
+    height:100%;
+    width: 100%;
+
+}.Banner-left{
+    margin-left:80px;
+    padding-left: 20px;
+}.Banner-text{
+    font-family:'SoDo Sans';
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}.Banner-right{
+    margin-right: 80px;
+    padding-right: 20px;
+
+}.Banner-button{
+    font-family:'SoDo Sans';
+    border-radius: 50px;
+    border-style:solid;
+    border-width:1px ;
+    border-color: white;
+    color: white;
+    background-color: #1e3932;
+    padding:5px 10px 5px ;
+    font-weight: 600;
+    font-size: 12px;
+
+}.Ad-banner{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  padding: 50px 0 50px;
+}.Ad-banner-in{
+    background-color:#fd9c14;
+    width: 1200px;
+    height: 200px;
+    /* margin-top:20px; */
+    border-radius: 10px;
+    display: flex;
+}.Ad-banner-img{
+    width: 100px;
+    /* margin-top: 50px; */   
+    /* font-family:'SoDo Sans'; */
+}.Price-text{
+    margin-top: 0;
+    font-family: 'SoDo Sans';
+    font-weight: 200;
+    font-size:14px;
+}.Ad-banner-heading{
+    font-family:'SoDo Sans' ;
+    font-size: 20px;
+    font-weight: bold;
+}.Ad-banner-descri{
+    font-family:'SoDo Sans';
+}.Ad-banner-title{
+    font-family: 'SoDo Sans';
+}.Ad-banner-in-right{
+    margin-left:300px;
+    padding-left:150px;
+
+
+}.Ad-banner-btn{
+    background-color: #00754a;
+    border: none;
+    color: white;
+    margin-left: 0;
+    margin-top: 140px;
+    margin-right: 10px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+
+}.Ad-banner-in-middle{
+    margin-left: 50px;
+}
+.Category-list{
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(255, 255, 255);
+}.Category-heading{
+    margin-left: 100px;
+}.Heading-text{
+    font-size: 1.5em;
+    font-family:'SoDo Sans';
+    font-weight: 800;
+}.Category-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}.Cat-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: outline,cursor,0.30s;
+}.Cat-img:hover{
+    cursor: pointer;
+    outline:#00754a 2px solid;
+
+}
+.Category-container{
+    text-align: center;
+    margin-top: 20px;
+}.Cat-text{
+    font-family: 'SoDo Sans';
+    font-weight: bold;
+}
+.product-menu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#edebe9;
+    padding-bottom: 100px;
+    
+}.product-up-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'SoDo Sans';
+
+}.product-menu-right{
+    margin-left: 600px;
+    padding-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+}.product-menu-small{
+    font-weight:bolder;
+    color: #00754a;
+}.product-menu-h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}.product-menu-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.product-tag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.389);
+    cursor: pointer;
+    
+}.product-img{
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+   object-fit: cover;
+   /* object-position:30% % 25% 25%; */
+}.product-left{
+    text-align:center;
+    font-family: 'SoDo Sans';
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px ;
+}.product-img-div{
+    width:80px;
+    height: 80px;
+}.product-price{
+    font-size: 15px;
+}.product-price-small{
+    font-size: 12px;
+}
+.product-middle{
+    margin-left: 10px;
+    font-family: 'SoDo Sans';
+    margin-top:0px;
+    padding-bottom: 30px;
+}.product-name{
+    margin-top: 0%;
+    margin-bottom:1px;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 900;
+
+}.product-energy{
+    font-size: 9px;
+    margin-top: 0;
+}.green-mark{
+    margin-top:0px;
+    margin-bottom: 5px;
+}.product-right{
+    padding: 10px 20px 10px 20px;
+    /* margin: 10px 20px 10px 20px; */
+}.Add-item{
+   background-color: #00754a; 
+   color: white;
+   border-style: none;
+   padding: 8px 22px 8px 22px;
+   border-radius: 30px ;
+   font-family:sans-serif;
+   font-weight:bold;
+   box-shadow:5px 10px 50px rgba(155, 154, 154, 0.966) ;
+   margin-top: 80px;
+   transition: background-color,0.05s;
+   cursor: pointer;
+}.Add-item:hover{
+    background-color: #1e3932;
+}.Cover-ad{
+    display: flex;
+    flex-direction: column;
+    background-color: #edebe9;
+    margin-top: 50px;
+}
+.Cover-ad-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}.Cad-up-left{
+    margin-left: 100px;
+}.Cad-up-right{
+    margin-right: 100px;
+    font-family: 'SoDo Sans';
+}.Cover-ad-down{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+
+}.Cover-img{
+    width: 100%;
+    height: 350px;
+/* margin:50px 100px 50px 100px; */
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    object-position: 0% 0% 75% 100% ;
+    border-radius:15px;
+    position: relative;
+    filter: brightness(0.8);
+    cursor: pointer;
+    transition: filter,1s;
+
+}.Cover-img:hover{
+    filter: brightness(0.2);
+}.Absolute-div{
+    position: absolute;
+    margin-top:200px;
+    left:120px;
+
+
+    
+}
+.Cover-h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}.Cover-small{
+    color: white;
+    font-family: 'SoDo Sans';
+}.Cover-button{
+    margin-top: 40px;
+    font-family:Arial;
+    font-weight: 400;
+    font-size: 16px;
+    padding:15px;
+    border-radius: 50px;
+    border: none;
+}.footer{
+    background-color: #0e382c;
+    color: white;
+    font-family: 'SoDo Sans';
+    display: flex;
+    flex-direction: column;
+}.footer-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    cursor: pointer;
+    
+}.footer-elements{
+    text-align:start;
+}.footer-list{
+    padding-right: 100px;
+    padding-left: 0;
+    list-style-type:none;
+    font-weight: 100;
+    font-size: 14px;
+}.footer-li{
+    padding-top: 30px;
+}.store-div{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}.footer-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}.footer-icon{
+    width: 60px;
+    height: 60px;
+}.footer-logo{
+    margin:0 100px 0 ;
+}.footer-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.footer-down-el{
+    background-color: aquamarine;
+    width: 100%;
+}.Social-icon{
+    cursor: pointer;
+}
